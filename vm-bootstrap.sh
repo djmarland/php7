@@ -48,5 +48,3 @@ sudo /etc/init.d/apache2 restart
 
 sudo update-rc.d apache2 defaults
 sudo update-rc.d apache2 enable
-
-sudo apt-get install node npm

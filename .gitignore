@@ -18,3 +18,5 @@ html
 /composer.phar
 .viminfo
 .mysql_history
+node_modules/
+tmp/

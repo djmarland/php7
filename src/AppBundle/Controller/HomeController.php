@@ -8,4 +8,9 @@ class HomeController extends Controller
     {
         return $this->renderTemplate('home:index');
     }
+
+    public function styleguideAction()
+    {
+        return $this->renderTemplate('home:styleguide');
+    }
 }

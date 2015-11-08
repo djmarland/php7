@@ -60,6 +60,7 @@ class Controller extends BaseController implements ControllerInterface
         }
 
         // if app is not active, throw to "not ready" page
+        // @todo - don't do this on the "first-user" page
         if (!$settings->isActive()) {
             $message = ($settings->isSuspended()) ?
                 'Account has been suspended' :
